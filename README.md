@@ -3,7 +3,7 @@
 
 This repository host all files necessary to build a automatic cat croquette feeder for less than 10 €.
 
-![](./media/catFeeder.mp4)
+![](./media/catFeeder.mov)
 
 <video width="700" height="500" controls>
   <source src="./media/catFeeder.mp4" type="video/mp4">
