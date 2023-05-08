@@ -1,10 +1,10 @@
 <!-- markdownlint-disable MD033 -->
 # Automatic Croquette Feeder
 
-This repository host all files necessary to build a automatic cat croquette dispenser for less than 10 €.
+This repository host all files necessary to build a automatic cat croquette feeder for less than 10 €.
 
 <video width="700" height="500" controls>
-  <source src="./media/CatDispenser.mp4" type="video/mp4">
+  <source src="./media/catFeeder.mp4" type="video/mp4">
 </video>
 
 ## Problematic
@@ -35,9 +35,9 @@ The solution I went for is as follow:
 
 ## How to build it ?
 
-For a 3D image of the feeder you can look at the [feeder_turning](./media/CatDispenser_turntable.html).
+For a 3D image of the feeder you can look at the [feeder_turning](./media/catFeeder_turntable.html).
 
-This croquette dispenser is composed of four steps:
+This croquette feeder is composed of four steps:
 
 - 3D printing
 - Wood building
@@ -70,7 +70,7 @@ The size of the tank is enough for 5 days of croquettes.
 
 ### Electonic
 
-For the cat dispenser to work you'll need:
+For the cat feeder to work you'll need:
 
 - Arduino board (a mini is sufficient)
 - A relay (easiest is a relay module)
@@ -86,7 +86,7 @@ You can find also the board file in the folder [/building/electronic/circuit.brd
 
 ### Code
 
-The code can be found in the code folder.
+The code can be found in the [code folder](./code/catFeeder.ino).
 It's quite simple.
 The code define the pin which is connected to the relay controller, the time for a full day portion of croquette and the number of meal you want to serve during one day.
 You can customize those variable depending of your setup.
