@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # Automatic Croquette Feeder
 
-This repository host all files necessary to build a automatic cat croquette feeder for less than 10 €.
+This repository host all files necessary to build a automatic cat croquette feeder for less than 20 €.
 
 <img src="./media/catFeeder.gif" alt="catFeeder" width="700"/>
 
